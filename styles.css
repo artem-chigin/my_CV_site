@@ -44,6 +44,8 @@ Default 9px
 
 */
 
+/* General styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -59,6 +61,22 @@ body {
   font-weight: 400;
   line-height: 1;
   color: #555;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Main header */
@@ -91,7 +109,7 @@ body {
   /* padding: 0 0.5rem; */
   text-decoration: none;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #087f5b;
   transition: all 0.3s;
 }
@@ -105,5 +123,27 @@ body {
 
 .hero {
   width: 130rem;
-  margin: 0 auto;
+  padding: 6.4rem 3.2rem;
+  border-bottom: #065940 solid 2px;
+}
+
+.hero-header {
+  font-size: 4rem;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.hero-img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img-box img {
+  width: 75%;
+  border-radius: 50%;
+  border: solid #065940 0.5rem;
 }
