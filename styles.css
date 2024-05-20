@@ -77,7 +77,6 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 4.8rem;
   justify-content: center;
-  align-items: center;
 }
 
 .flex {
@@ -144,6 +143,7 @@ body {
   max-width: 130rem;
   padding: 9.6rem 3.2rem;
   /* border-bottom: #1864ab solid 2px; */
+  align-items: center;
 }
 
 .hero-header {
@@ -217,7 +217,7 @@ body {
   left: -0.4rem;
 }
 .career-row-company {
-  margin-bottom: 1.6rem;
+  margin-bottom: 2.4rem;
   color: #1864ab;
   font-size: 1.6rem;
   font-weight: 500;
@@ -251,7 +251,11 @@ body {
 
 .footer {
   background-color: #1864ab;
-  padding: 6.4rem 0;
+  padding: 6.4rem 0 1.6rem 0;
+}
+
+.footer-content {
+  max-width: 75%;
 }
 
 .icon {
@@ -267,12 +271,15 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 1.8rem;
+  font-weight: 300;
   gap: 2.4rem;
   padding: 1rem 0;
+  /* transition: all 0.3s; */
 }
 
 .footer-link:hover,
 .footer-link:active {
+  font-weight: 400;
 }
 
 .footer h4 {
@@ -280,4 +287,12 @@ body {
   font-size: 2.4rem;
   font-weight: 200;
   margin-bottom: 2.4rem;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: #eee;
 }
