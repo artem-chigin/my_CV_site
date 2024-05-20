@@ -148,6 +148,7 @@ body {
 
 .hero-header {
   font-size: 4rem;
+  color: #1864ab;
   letter-spacing: -0.5px;
   margin-bottom: 4.8rem;
 }
@@ -244,4 +245,19 @@ body {
 .career-responsibilities li {
   font-size: 1.6rem;
   font-weight: 300;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1864ab;
+  padding: 6.4rem 0;
+}
+
+.icon {
+  display: block;
+  fill: #fff;
+  stroke: #fff;
+  width: 4.8rem;
+  min-height: 4.8rem;
 }
