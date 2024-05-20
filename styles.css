@@ -80,6 +80,21 @@ body {
   align-items: center;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-header {
+  text-align: center;
+  padding: 6.4rem 0;
+  font-size: 2.4rem;
+}
+
 /* Main header */
 
 .header {
@@ -171,4 +186,60 @@ body {
 
 .career {
   background-color: #e8f0f7;
+}
+
+.career-tree-box {
+  max-width: 80%;
+  margin: 0 auto;
+  /* border: solid; */
+}
+.career-row {
+  padding: 0 0 3.2rem 2.4rem;
+  border-left: solid 0.1rem #1864ab;
+  position: relative;
+}
+
+.career-row:last-child {
+  border: none;
+}
+
+.career-row::after {
+  content: "";
+  position: absolute;
+  width: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 50%;
+  background-color: #1864ab;
+  top: 0;
+  left: -0.4rem;
+}
+.career-row-company {
+  margin-bottom: 1.6rem;
+  color: #1864ab;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.caree-row-jobtitle-and-dates {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+.career-row-jobtitle {
+  /* margin-bottom: 0.8rem; */
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.career-row-dates {
+  font-size: 1.6rem;
+}
+
+.career-responsibilities {
+  margin-left: 2.4rem;
+  line-height: 1.5;
+}
+
+.career-responsibilities li {
+  font-size: 1.6rem;
+  font-weight: 300;
 }
