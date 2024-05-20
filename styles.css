@@ -24,8 +24,8 @@ Paragraph default: 1.6
 
 --- 02 Colors
 
-- Primary color #087f5b, 
-- Tints: 
+- Primary color #1864ab, 
+- Tints: #e8f0f7
 - Shades: 
 - Accents:
 - Greys: #555, #333
@@ -128,7 +128,7 @@ body {
 .hero {
   max-width: 130rem;
   padding: 9.6rem 3.2rem;
-  border-bottom: #1864ab solid 2px;
+  /* border-bottom: #1864ab solid 2px; */
 }
 
 .hero-header {
@@ -152,8 +152,6 @@ body {
 .hero-img-box img {
   width: 70%;
   z-index: -1;
-  /* border-radius: 50%; */
-  /* border: solid #065940 0.5rem; */
 }
 
 .hero-img-box::after {
@@ -167,4 +165,10 @@ body {
   padding-bottom: 80%;
   background-color: #eee;
   z-index: -2;
+}
+
+/* Career section */
+
+.career {
+  background-color: #e8f0f7;
 }
