@@ -207,6 +207,7 @@ body {
   font-weight: 300;
   margin-bottom: 2.4rem;
   color: #1864ab;
+  text-transform: uppercase;
 }
 .skill-item {
   padding: 1rem 2rem;
