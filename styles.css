@@ -95,9 +95,13 @@ body {
   align-items: center;
 }
 
+.section {
+  padding: 9.6rem 0;
+}
+
 .section-header {
   text-align: center;
-  padding: 6.4rem 0 0 0;
+  /* padding: 6.4rem 0 0 0; */
   font-size: 2.4rem;
 }
 
@@ -281,7 +285,9 @@ body {
   font-weight: 300;
 }
 
+/* ******************** */
 /* Certificates */
+/* ******************** */
 
 .certificates-sub-header {
   font-size: 1.6rem;
@@ -292,6 +298,8 @@ body {
 
 .diploma-box {
   padding: 2rem 0;
+  gap: 2rem;
+  /* padding: 2rem 1rem; */
 }
 
 .diploma-item {
@@ -300,6 +308,12 @@ body {
   gap: 2.4rem;
   border: solid #a3c1dd 0.1rem;
   /* background-color: #a3c1dd; */
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.diploma-item:hover {
+  transform: translateY(-0.5rem);
 }
 
 .diploma-item-logo {
