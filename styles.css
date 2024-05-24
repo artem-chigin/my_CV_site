@@ -283,24 +283,38 @@ body {
 
 /* Certificates */
 
+.certificates-sub-header {
+  font-size: 1.6rem;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
 .diploma-box {
-  padding: 4.8rem 0;
+  padding: 2rem 0;
 }
 
 .diploma-item {
   display: flex;
-  padding: 2rem 4.8rem;
+  padding: 2rem 2rem;
   gap: 2.4rem;
   border: solid #a3c1dd 0.1rem;
+  /* background-color: #a3c1dd; */
 }
 
 .diploma-item-logo {
   width: 10rem;
-  filter: grayscale(0.8);
+  align-self: flex-start;
+
+  filter: grayscale(0.5);
 }
 
 .diploma-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 .school {
   font-size: 1.8rem;
   margin-bottom: 1.8rem;
@@ -315,6 +329,21 @@ body {
 }
 .dates {
   font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.certificate-link:link,
+.certificate-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #a3c1dd;
+  padding-bottom: 4px;
+}
+
+.certificate-link:hover,
+.certificate-link:active {
+  color: #1864ab;
+  border-bottom: hidden;
 }
 
 /* Footer */
