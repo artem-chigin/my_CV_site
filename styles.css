@@ -281,6 +281,42 @@ body {
   font-weight: 300;
 }
 
+/* Certificates */
+
+.diploma-box {
+  padding: 4.8rem 0;
+}
+
+.diploma-item {
+  display: flex;
+  padding: 2rem 4.8rem;
+  gap: 2.4rem;
+  border: solid #a3c1dd 0.1rem;
+}
+
+.diploma-item-logo {
+  width: 10rem;
+  filter: grayscale(0.8);
+}
+
+.diploma-item-info {
+}
+.school {
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+  letter-spacing: -0.1rem;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+}
+.degree {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.dates {
+  font-size: 1.2rem;
+}
+
 /* Footer */
 
 .footer {
@@ -289,7 +325,8 @@ body {
 }
 
 .footer-content {
-  max-width: 75%;
+  /* max-width: 75%; */
+  justify-items: center;
 }
 
 .icon {
@@ -306,7 +343,7 @@ body {
   color: #fff;
   font-size: 1.8rem;
   font-weight: 300;
-  gap: 2.4rem;
+  gap: 3rem;
   padding: 1rem 0;
   /* transition: all 0.3s; */
 }
