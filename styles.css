@@ -223,7 +223,7 @@ strong {
 
 .skills-section {
   /* max-width: 70%; */
-  background-color: aliceblue;
+  background-color: #e7f5ff;
 }
 
 .skills {
@@ -252,6 +252,22 @@ strong {
 }
 
 /* Project section */
+
+.projects-section {
+  background-color: aliceblue;
+}
+
+.projects {
+  gap: 9.6rem;
+}
+
+/* .project-subsection {
+  margin-bottom: 6.4rem;
+}
+
+.project-subsection:last-child {
+  margin-bottom: none;
+} */
 
 .project-header {
   font-size: 3rem;
@@ -311,6 +327,7 @@ strong {
 }
 .project-img {
   width: 100%;
+  border: #eee solid 1px;
 }
 
 /* Career section */
