@@ -119,6 +119,16 @@ body {
   padding: 0 4.8rem;
 }
 
+.header-left {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.header-icons-box {
+  padding-right: 2rem;
+  border-right: solid 0.2rem currentColor;
+}
+
 .main-header {
   font-size: 3rem;
   letter-spacing: 1px;
