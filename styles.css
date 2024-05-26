@@ -223,7 +223,7 @@ strong {
 
 .skills-section {
   /* max-width: 70%; */
-  background-color: #e7f5ff;
+  background-color: aliceblue;
 }
 
 .skills {
@@ -257,7 +257,7 @@ strong {
 /* ********************* */
 
 .projects-section {
-  background-color: aliceblue;
+  background-color: white;
 }
 
 .projects {
@@ -266,9 +266,11 @@ strong {
 
 /* .project-subsection {
   margin-bottom: 6.4rem;
-}
+  padding-bottom: 2.4rem;
+  border-bottom: lightblue solid 2px;
+} */
 
-.project-subsection:last-child {
+/* .project-subsection:last-child {
   margin-bottom: none;
 } */
 
@@ -336,7 +338,7 @@ strong {
 /* Career section */
 
 .career {
-  background-color: #e8f0f7;
+  background-color: aliceblue;
 }
 
 .career-tree-box {
