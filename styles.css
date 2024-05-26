@@ -182,6 +182,14 @@ strong {
 .hero-description {
   font-size: 1.8rem;
   line-height: 1.5;
+  margin-bottom: 1.6rem;
+}
+
+.hero-description-extra {
+  font-size: 1.6rem;
+  font-weight: 300;
+  /* font-style: italic; */
+  color: #999;
 }
 
 .hero-img-box {
