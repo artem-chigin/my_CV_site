@@ -232,6 +232,7 @@ strong {
 }
 .skills-type {
   gap: 6.4rem;
+  align-items: center;
 }
 
 .skill-subheader {
@@ -251,7 +252,9 @@ strong {
   color: #fff;
 }
 
+/* ********************* */
 /* Project section */
+/* ********************* */
 
 .projects-section {
   background-color: aliceblue;
