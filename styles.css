@@ -372,7 +372,7 @@ strong {
 .caree-row-jobtitle-and-dates {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.6rem;
 }
 .career-row-jobtitle {
   /* margin-bottom: 0.8rem; */
@@ -384,10 +384,18 @@ strong {
   font-size: 1.6rem;
 }
 
+.career-achivement {
+  /* max-width: 80%; */
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+}
+
 .career-responsibilities {
   margin-left: 2.4rem;
   line-height: 1.5;
   max-width: 80%;
+  margin-bottom: 1.6rem;
 }
 
 .career-responsibilities li {
