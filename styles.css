@@ -430,14 +430,14 @@ strong {
 /* ******************** */
 
 .certificates-sub-section {
-  margin-top: 2.4rem;
+  /* margin-top: 2.4rem; */
 }
 
 .certificates-sub-header {
-  font-size: 1.6rem;
-  color: #777;
+  font-size: 2rem;
+  color: #1864ab;
   text-transform: uppercase;
-  letter-spacing: -0.5px;
+  /* letter-spacing: -0.5px; */
 }
 
 .diploma-box {
@@ -514,6 +514,10 @@ strong {
 .footer-content {
   /* max-width: 75%; */
   justify-items: center;
+}
+
+.footer-content:first-child {
+  margin-bottom: 3.2rem;
 }
 
 .icon {
