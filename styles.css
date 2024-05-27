@@ -153,15 +153,16 @@ strong {
   /* padding: 0 0.5rem; */
   display: inline-block;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 400;
-  color: #fff;
+  color: aliceblue;
   transition: all 0.3s;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  transform: scale(1.05);
+  color: #fff;
+  /* transform: scale(1.05); */
   /* font-size: 1.8rem; */
 }
 
@@ -185,7 +186,7 @@ strong {
 .hero-location {
   font-size: 1.8rem;
   font-weight: 200;
-  /* font-style: italic; */
+  font-style: italic;
   margin-bottom: 2.4rem;
 }
 
@@ -330,6 +331,7 @@ strong {
   color: #999;
   padding: 0.3rem 0;
   border-bottom: solid 1px currentColor;
+  transition: all 0.5s;
 }
 
 .project-link:hover,
