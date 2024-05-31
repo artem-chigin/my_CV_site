@@ -349,7 +349,8 @@ strong {
 }
 .project-img {
   width: 100%;
-  border: #eee solid 1px;
+  border-bottom: #e8f0f7 solid 1rem;
+  border-right: #e8f0f7 solid 1rem;
 }
 
 /* Career section */
