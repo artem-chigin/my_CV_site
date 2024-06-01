@@ -101,7 +101,7 @@ body {
 }
 
 .section {
-  padding: 8rem 0;
+  padding: 8rem 2rem;
 }
 
 .section-header {
@@ -276,6 +276,7 @@ strong {
 
 .projects-section {
   background-color: white;
+  border-bottom: #a3c1dd solid 1px;
 }
 
 .projects {
@@ -295,7 +296,7 @@ strong {
 .project-header {
   font-size: 3rem;
   color: #1864ab;
-  margin-bottom: 4.82rem;
+  margin-bottom: 4.8rem;
 }
 .project-details {
   /* align-self: center; */
@@ -347,7 +348,7 @@ strong {
   border-bottom: hidden;
 }
 .technology-logo {
-  width: 75px;
+  width: 7.5rem;
 }
 .project-img {
   width: 100%;

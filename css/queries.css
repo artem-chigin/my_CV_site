@@ -1,4 +1,11 @@
-/* below 1400px */
+/* below 1200px */
 
-@media (max-width: 88em) {
+@media (max-width: 75em) {
+  .technology-logo {
+    width: 6rem;
+  }
+
+  .tecnology p {
+    font-size: 1.2rem;
+  }
 }
