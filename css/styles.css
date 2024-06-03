@@ -123,6 +123,7 @@ strong {
 
 .header {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   background-color: #1864ab;
@@ -147,6 +148,10 @@ strong {
   letter-spacing: 1px;
   font-weight: 600;
   /* text-transform: uppercase; */
+}
+
+.mobile-nav-buttons {
+  display: none;
 }
 
 .main-nav-list {
