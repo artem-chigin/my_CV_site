@@ -145,7 +145,7 @@
   }
 
   .skill-item {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
   .project-details {
@@ -203,6 +203,16 @@
   }
   .main-header {
     font-size: 2.4rem;
+  }
+
+  .skills {
+    padding: 0 3.2rem;
+  }
+
+  .skill-item {
+    font-size: 2rem;
+    /* padding-left: 4.8rem;
+    padding-right: 4.8rem; */
   }
 
   .school {
