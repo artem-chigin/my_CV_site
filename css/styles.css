@@ -524,6 +524,8 @@ strong {
 .footer-content {
   /* max-width: 75%; */
   justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
 }
 
 .footer-content:first-child {
