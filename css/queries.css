@@ -94,6 +94,8 @@
   } */
 }
 
+/* Bellow 608px */
+
 @media (max-width: 38em) {
   .grid--2-cols {
     grid-template-columns: 1fr;
