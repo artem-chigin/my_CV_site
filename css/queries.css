@@ -125,11 +125,11 @@
   }
 
   .hero-img-box::after {
-    width: 50%;
-    padding-bottom: 50%;
+    width: 70%;
+    padding-bottom: 70%;
     left: 50%;
 
-    transform: translate(-45%, -45%);
+    transform: translate(-55%, -45%);
   }
 
   .hero-header {
