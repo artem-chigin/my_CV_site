@@ -9,6 +9,6 @@ const navLinks = document.querySelectorAll(".main-nav-link");
 
 navLinks.forEach(function (link) {
   link.addEventListener("click", function () {
-    header.classList.toggle("open-nav");
+    header.classList.remove("open-nav");
   });
 });
